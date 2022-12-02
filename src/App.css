@@ -1,0 +1,209 @@
+header {
+    background-color: #3f51b5;
+    height: 100px;
+    display: flex;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+.Header_button_left {
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 14px 20px;
+    margin: 25px 15px;
+    font-family: Nunito;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 26px;
+    transition: 1000ms;
+    transform: translateY(0);
+    align-items: center;
+    text-align: left;
+    cursor: pointer;
+}
+
+.Header_button_left:hover {
+    transition: 1000ms;
+    padding: 10px 20px;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}
+
+.Header_button_right {
+    margin-top: 25px;
+    position: absolute;
+    right: 20px;
+    font-family: Nunito;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 26px;
+    transition: 1000ms;
+    transform: translateY(0);
+    align-items: center;
+    text-align: left;
+    cursor: pointer;
+}
+
+.Header_button_right:hover {
+    transition: 1000ms;
+    padding: 10px 20px;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}
+
+.Page01 {
+    margin: 20px;
+    border: solid;
+    height: 500px;
+    background-color: rgba(29, 28, 28, 0.212);
+}
+
+.Baniere {
+    margin: 20px;
+    border: solid;
+    height: 450px;
+    background-color: rgba(29, 28, 28, 0.212);
+}
+
+.baniere_gauche {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.camView {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.baniere_gauche_video {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-top: 10%;
+}
+
+.baniere_droite {
+    width: 70%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.video {
+    margin: 55px;
+    
+}
+
+.image-ronde {
+    width: 150px;
+    height: 150px;
+    border: none;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.Body_button_left {
+    margin-left: 30px;
+    margin-top: 25px;
+    padding: 14px 20px;
+    margin: 25px 55px;
+    font-family: Nunito;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 26px;
+    transition: 1000ms;
+    transform: translateY(0);
+    align-items: center;
+    text-align: left;
+    cursor: pointer;
+}
+
+.Body_button_left:hover {
+    transition: 1000ms;
+    padding: 10px 20px;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}
+
+.Body_button_left:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.Presentation_body_button {
+    margin-left: 30px;
+    margin-top: 25px;
+    padding: 1px 20px;
+    margin: 2px 45px;
+    font-family: Nunito;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 40px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 12px;
+    transition: 1000ms;
+    transform: translateY(0);
+    align-items: center;
+    display: block;
+    cursor: pointer;
+}
+
+.Presentation_body_button:hover {
+    background-color: rgb(231, 229, 229);
+    color: #0066cc;
+}
+
+.Presentation_body_input {
+    margin-left: 30px;
+    margin-top: 25px;
+    padding: 1px 20px;
+    margin: 2px 45px;
+    font-family: Nunito;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 1px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 12px;
+    transition: 1000ms;
+    transform: translateY(0);
+    align-items: center;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Presentation_body_input:hover {
+    background-color: rgb(231, 229, 229);
+    color: #0066cc;
+}
